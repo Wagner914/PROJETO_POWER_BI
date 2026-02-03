@@ -39,23 +39,12 @@ O processo ETL para este projeto envolve a extração de dados de arquivos CSV, 
 
 ### 3.1. Extração
 
-Os dados são extraídos dos seguintes arquivos, gerados por um script Python:
+Os dados são extraídos dos seguintes arquivos, gerados por um script Python nos formatos de csv, xlsx e parquet para que o usuário possa escolher qual o melhor modelo para trabalhar:
 
-*   `Dim_Produtos.csv`
-*   `Dim_Produtos.xlsx`
-*   `Dim_Produtos.parquet`
-
-*   `Dim_Clientes.csv`
-*   `Dim_Clientes.xlsx`
-*   `Dim_Clientes.parquet`
-
-*   `Fato_Vendas.csv`
-*   `Fato_Vendas.xlsx`
-*   `Fato_Vendas.parquet`
-
-*   `Fato_Metas.csv`
-*   `Fato_Metas.xlsx`
-*   `Fato_Metas.parquet`
+*   `Dim_Produtos`
+*   `Dim_Clientes`
+*   `Fato_Vendas`
+*   `Fato_Metas`
 
 ### 3.2. Transformação
 
