@@ -2,16 +2,17 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 import getpass
-
+import os
 
 user = getpass.getuser()
 np.random.seed(100)
 
 NUM_CLIENTES = 3000
 NUM_VENDAS = 20000
+NUM_PRODUTOS = 100
 
 DATA_INICIO = datetime(2020, 1, 1)
-DATA_FIM = datetime(2025, 12, 31)
+DATA_FIM = datetime.now()
 
 # =====================================================
 # BASES FICTÍCIAS
@@ -103,12 +104,32 @@ def gerar_clientes(qtd):
 # =====================================================
 # DIM PRODUTOS
 # =====================================================
-def gerar_produtos():
+def gerar_produtos(num_produtos=NUM_PRODUTOS):
+    """
+    Gera produtos distribuindo uniformemente entre categorias.
+    
+    Args:
+        num_produtos: Quantidade total de produtos a gerar
+    """
     produtos = []
     id_produto = 1
-
-    for categoria, lista_produtos in CATEGORIAS.items():
-        for nome in lista_produtos:
+    categorias_list = list(CATEGORIAS.keys())
+    num_categorias = len(categorias_list)
+    
+    produtos_por_categoria = num_produtos // num_categorias
+    produtos_extras = num_produtos % num_categorias
+    
+    for idx, categoria in enumerate(categorias_list):
+        qtd_categoria = produtos_por_categoria + (1 if idx < produtos_extras else 0)
+        
+        nomes_originais = CATEGORIAS[categoria]
+        
+        for i in range(qtd_categoria):
+            if i < len(nomes_originais):
+                nome = nomes_originais[i]
+            else:
+                nome = f"{categoria} Modelo {i + 1}"
+            
             preco = round(np.random.uniform(300, 8000), 2)
             custo = round(preco * np.random.uniform(0.55, 0.7), 2)
 
@@ -170,19 +191,36 @@ def gerar_metas():
     return pd.DataFrame(metas)
 
 df_clientes = gerar_clientes(NUM_CLIENTES)
-df_produtos = gerar_produtos()
+df_produtos = gerar_produtos(NUM_PRODUTOS)
 df_vendas = gerar_vendas(NUM_VENDAS, df_clientes, df_produtos)
 df_metas = gerar_metas()
 
 caminho_Dim = rf"C:\Users\{user}\OneDrive - TERRA TECNOLOGIA AGRICOLA\Documents\Projeto PowerBI\01 - DIMENSÕES"
 caminho_Fato = rf"C:\Users\{user}\OneDrive - TERRA TECNOLOGIA AGRICOLA\Documents\Projeto PowerBI\02 - FATO"
 
+# Criando pastas se não existirem (opcional, mas útil se rodar localmente)
+# os.makedirs(caminho_Dim, exist_ok=True)
+# os.makedirs(caminho_Fato, exist_ok=True)
+
+# Salvando em PARQUET
+df_clientes.to_parquet(f"{caminho_Dim}\\Dim_Clientes.parquet", index=False)
+df_produtos.to_parquet(f"{caminho_Dim}\\Dim_Produtos.parquet", index=False)
+df_vendas.to_parquet(f"{caminho_Fato}\\Fato_Vendas.parquet", index=False)
+df_metas.to_parquet(f"{caminho_Fato}\\Fato_Metas.parquet", index=False)
+
+# Salvando em EXCEL
+df_clientes.to_excel(f"{caminho_Dim}\\Dim_Clientes.xlsx", index=False)
+df_produtos.to_excel(f"{caminho_Dim}\\Dim_Produtos.xlsx", index=False)
+df_vendas.to_excel(f"{caminho_Fato}\\Fato_Vendas.xlsx", index=False)
+df_metas.to_excel(f"{caminho_Fato}\\Fato_Metas.xlsx", index=False)
+
+# Salvando em CSV (opcional)
 df_clientes.to_csv(f"{caminho_Dim}\\Dim_Clientes.csv", index=False, encoding="utf-8-sig")
 df_produtos.to_csv(f"{caminho_Dim}\\Dim_Produtos.csv", index=False, encoding="utf-8-sig")
 df_vendas.to_csv(f"{caminho_Fato}\\Fato_Vendas.csv", index=False, encoding="utf-8-sig")
 df_metas.to_csv(f"{caminho_Fato}\\Fato_Metas.csv", index=False, encoding="utf-8-sig")
 
-print("✅ Dados gerados com sucesso!")
+print("✅ Dados gerados e salvos com sucesso em Parquet e Excel!")
 print(f"Clientes: {len(df_clientes)}")
 print(f"Produtos: {len(df_produtos)}")
 print(f"Vendas: {len(df_vendas)}")

@@ -7,24 +7,95 @@
 6,Projetor Epson Full HD,Eletrônicos,7634.42,5273.24
 7,Console PlayStation 5,Eletrônicos,5960.31,3348.83
 8,Console Xbox Series X,Eletrônicos,4071.16,2400.49
-9,Notebook Dell Inspiron i7,Informática,1086.29,653.25
-10,Notebook Lenovo ThinkPad i5,Informática,6720.74,3840.64
-11,Mouse Logitech MX Master,Informática,5112.4,3396.06
-12,Teclado Mecânico Redragon,Informática,1629.36,1125.69
-13,Monitor LG 27'' IPS,Informática,5017.08,2994.25
-14,Impressora HP LaserJet,Informática,4354.16,2728.75
-15,SSD Kingston 1TB NVMe,Informática,5336.48,3570.73
-16,Roteador TP-Link Archer AX,Informática,6915.56,4809.12
-17,Geladeira Brastemp Frost Free,Eletrodomésticos,546.67,374.21
-18,Geladeira Electrolux Duplex,Eletrodomésticos,4326.85,2981.92
-19,Fogão Consul 5 Bocas,Eletrodomésticos,5102.69,3248.45
-20,Micro-ondas Panasonic 34L,Eletrodomésticos,3450.07,2011.75
-21,Lava e Seca Samsung 11kg,Eletrodomésticos,7766.06,4873.27
-22,Máquina de Lavar LG 12kg,Eletrodomésticos,4764.16,2799.74
-23,Freezer Vertical Consul,Eletrodomésticos,5877.12,3587.57
-24,Sofá Retrátil 3 Lugares,Móveis,3375.09,2300.64
-25,Mesa de Jantar 6 Lugares,Móveis,4117.42,2372.87
-26,Cadeira Escritório Presidente,Móveis,1944.73,1335.92
-27,Guarda-Roupa Casal 6 Portas,Móveis,5033.13,3035.73
-28,Rack para TV até 65'',Móveis,6228.14,3817.63
-29,Cama Box Queen Ortobom,Móveis,6270.45,4371.0
+9,Eletrônicos Modelo 9,Eletrônicos,1086.29,653.25
+10,Eletrônicos Modelo 10,Eletrônicos,6720.74,3840.64
+11,Eletrônicos Modelo 11,Eletrônicos,5112.4,3396.06
+12,Eletrônicos Modelo 12,Eletrônicos,1629.36,1125.69
+13,Eletrônicos Modelo 13,Eletrônicos,5017.08,2994.25
+14,Eletrônicos Modelo 14,Eletrônicos,4354.16,2728.75
+15,Eletrônicos Modelo 15,Eletrônicos,5336.48,3570.73
+16,Eletrônicos Modelo 16,Eletrônicos,6915.56,4809.12
+17,Eletrônicos Modelo 17,Eletrônicos,546.67,374.21
+18,Eletrônicos Modelo 18,Eletrônicos,4326.85,2981.92
+19,Eletrônicos Modelo 19,Eletrônicos,5102.69,3248.45
+20,Eletrônicos Modelo 20,Eletrônicos,3450.07,2011.75
+21,Eletrônicos Modelo 21,Eletrônicos,7766.06,4873.27
+22,Eletrônicos Modelo 22,Eletrônicos,4764.16,2799.74
+23,Eletrônicos Modelo 23,Eletrônicos,5877.12,3587.57
+24,Eletrônicos Modelo 24,Eletrônicos,3375.09,2300.64
+25,Eletrônicos Modelo 25,Eletrônicos,4117.42,2372.87
+26,Notebook Dell Inspiron i7,Informática,1944.73,1335.92
+27,Notebook Lenovo ThinkPad i5,Informática,5033.13,3035.73
+28,Mouse Logitech MX Master,Informática,6228.14,3817.63
+29,Teclado Mecânico Redragon,Informática,6270.45,4371.0
+30,Monitor LG 27'' IPS,Informática,1799.6,1179.51
+31,Impressora HP LaserJet,Informática,1806.97,1230.76
+32,SSD Kingston 1TB NVMe,Informática,1018.23,689.07
+33,Roteador TP-Link Archer AX,Informática,1434.8,973.85
+34,Informática Modelo 9,Informática,573.58,332.91
+35,Informática Modelo 10,Informática,341.47,235.84
+36,Informática Modelo 11,Informática,4371.38,3036.22
+37,Informática Modelo 12,Informática,7239.21,4292.79
+38,Informática Modelo 13,Informática,3496.78,2071.03
+39,Informática Modelo 14,Informática,6652.74,4162.99
+40,Informática Modelo 15,Informática,2940.37,2048.52
+41,Informática Modelo 16,Informática,1040.24,583.55
+42,Informática Modelo 17,Informática,4189.08,2470.63
+43,Informática Modelo 18,Informática,4968.63,2779.42
+44,Informática Modelo 19,Informática,2591.03,1733.02
+45,Informática Modelo 20,Informática,1357.17,884.21
+46,Informática Modelo 21,Informática,3853.0,2411.77
+47,Informática Modelo 22,Informática,7651.09,5240.39
+48,Informática Modelo 23,Informática,1734.04,983.11
+49,Informática Modelo 24,Informática,564.04,375.07
+50,Informática Modelo 25,Informática,3282.04,1883.19
+51,Geladeira Brastemp Frost Free,Eletrodomésticos,6097.29,3850.72
+52,Geladeira Electrolux Duplex,Eletrodomésticos,2983.89,1967.94
+53,Fogão Consul 5 Bocas,Eletrodomésticos,3928.58,2486.71
+54,Micro-ondas Panasonic 34L,Eletrodomésticos,3137.9,1868.99
+55,Lava e Seca Samsung 11kg,Eletrodomésticos,6551.37,4245.79
+56,Máquina de Lavar LG 12kg,Eletrodomésticos,2399.04,1454.46
+57,Freezer Vertical Consul,Eletrodomésticos,658.96,363.86
+58,Eletrodomésticos Modelo 8,Eletrodomésticos,3022.72,1673.17
+59,Eletrodomésticos Modelo 9,Eletrodomésticos,7009.6,4862.75
+60,Eletrodomésticos Modelo 10,Eletrodomésticos,7014.03,4747.77
+61,Eletrodomésticos Modelo 11,Eletrodomésticos,5408.97,3779.56
+62,Eletrodomésticos Modelo 12,Eletrodomésticos,2255.94,1254.34
+63,Eletrodomésticos Modelo 13,Eletrodomésticos,7640.33,4783.12
+64,Eletrodomésticos Modelo 14,Eletrodomésticos,381.72,247.07
+65,Eletrodomésticos Modelo 15,Eletrodomésticos,302.5,199.64
+66,Eletrodomésticos Modelo 16,Eletrodomésticos,582.96,332.46
+67,Eletrodomésticos Modelo 17,Eletrodomésticos,7586.66,4299.66
+68,Eletrodomésticos Modelo 18,Eletrodomésticos,6687.92,3914.53
+69,Eletrodomésticos Modelo 19,Eletrodomésticos,5127.36,3475.7
+70,Eletrodomésticos Modelo 20,Eletrodomésticos,7873.53,5312.77
+71,Eletrodomésticos Modelo 21,Eletrodomésticos,1531.69,1005.34
+72,Eletrodomésticos Modelo 22,Eletrodomésticos,7377.78,5056.93
+73,Eletrodomésticos Modelo 23,Eletrodomésticos,5176.67,3578.17
+74,Eletrodomésticos Modelo 24,Eletrodomésticos,2343.58,1569.52
+75,Eletrodomésticos Modelo 25,Eletrodomésticos,6132.0,3457.87
+76,Sofá Retrátil 3 Lugares,Móveis,3387.08,1876.81
+77,Mesa de Jantar 6 Lugares,Móveis,330.23,200.78
+78,Cadeira Escritório Presidente,Móveis,6138.36,3416.2
+79,Guarda-Roupa Casal 6 Portas,Móveis,3610.31,2463.53
+80,Rack para TV até 65'',Móveis,6349.88,4385.51
+81,Cama Box Queen Ortobom,Móveis,2933.09,1804.7
+82,Móveis Modelo 7,Móveis,7549.47,4534.97
+83,Móveis Modelo 8,Móveis,5709.44,3913.07
+84,Móveis Modelo 9,Móveis,4741.63,2821.92
+85,Móveis Modelo 10,Móveis,4806.82,3127.66
+86,Móveis Modelo 11,Móveis,5658.26,3515.63
+87,Móveis Modelo 12,Móveis,4480.0,2675.35
+88,Móveis Modelo 13,Móveis,826.76,562.92
+89,Móveis Modelo 14,Móveis,2529.25,1732.38
+90,Móveis Modelo 15,Móveis,7656.62,4381.75
+91,Móveis Modelo 16,Móveis,1337.03,742.13
+92,Móveis Modelo 17,Móveis,1227.95,773.25
+93,Móveis Modelo 18,Móveis,4309.46,2701.71
+94,Móveis Modelo 19,Móveis,2033.19,1405.0
+95,Móveis Modelo 20,Móveis,1934.88,1186.91
+96,Móveis Modelo 21,Móveis,5308.57,3187.24
+97,Móveis Modelo 22,Móveis,2690.61,1616.39
+98,Móveis Modelo 23,Móveis,6737.45,4076.56
+99,Móveis Modelo 24,Móveis,4302.28,2610.13
+100,Móveis Modelo 25,Móveis,1284.64,730.74
