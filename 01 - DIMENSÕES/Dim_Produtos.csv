@@ -1,0 +1,30 @@
+﻿ID_Produto,Produto,Categoria,Preco_Unitario,Custo_Unitario
+1,Smart TV Samsung 55'' 4K,Eletrônicos,6923.22,4245.0
+2,Smart TV LG 50'' UHD,Eletrônicos,6407.56,3703.13
+3,Soundbar JBL 2.1,Eletrônicos,1826.42,1018.29
+4,Home Theater Sony 5.1,Eletrônicos,4001.32,2408.43
+5,TV Box Xiaomi Mi S,Eletrônicos,7523.39,4542.05
+6,Projetor Epson Full HD,Eletrônicos,7634.42,5273.24
+7,Console PlayStation 5,Eletrônicos,5960.31,3348.83
+8,Console Xbox Series X,Eletrônicos,4071.16,2400.49
+9,Notebook Dell Inspiron i7,Informática,1086.29,653.25
+10,Notebook Lenovo ThinkPad i5,Informática,6720.74,3840.64
+11,Mouse Logitech MX Master,Informática,5112.4,3396.06
+12,Teclado Mecânico Redragon,Informática,1629.36,1125.69
+13,Monitor LG 27'' IPS,Informática,5017.08,2994.25
+14,Impressora HP LaserJet,Informática,4354.16,2728.75
+15,SSD Kingston 1TB NVMe,Informática,5336.48,3570.73
+16,Roteador TP-Link Archer AX,Informática,6915.56,4809.12
+17,Geladeira Brastemp Frost Free,Eletrodomésticos,546.67,374.21
+18,Geladeira Electrolux Duplex,Eletrodomésticos,4326.85,2981.92
+19,Fogão Consul 5 Bocas,Eletrodomésticos,5102.69,3248.45
+20,Micro-ondas Panasonic 34L,Eletrodomésticos,3450.07,2011.75
+21,Lava e Seca Samsung 11kg,Eletrodomésticos,7766.06,4873.27
+22,Máquina de Lavar LG 12kg,Eletrodomésticos,4764.16,2799.74
+23,Freezer Vertical Consul,Eletrodomésticos,5877.12,3587.57
+24,Sofá Retrátil 3 Lugares,Móveis,3375.09,2300.64
+25,Mesa de Jantar 6 Lugares,Móveis,4117.42,2372.87
+26,Cadeira Escritório Presidente,Móveis,1944.73,1335.92
+27,Guarda-Roupa Casal 6 Portas,Móveis,5033.13,3035.73
+28,Rack para TV até 65'',Móveis,6228.14,3817.63
+29,Cama Box Queen Ortobom,Móveis,6270.45,4371.0
