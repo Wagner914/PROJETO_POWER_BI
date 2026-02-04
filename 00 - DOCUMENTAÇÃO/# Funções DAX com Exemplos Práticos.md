@@ -240,13 +240,3 @@ DIVIDE([Total Vendas] - [Vendas LY], [Vendas LY])
 ```
 
 ---
-
-### Próximos Passos
-
-Podemos evoluir este material para:
-
-* 📘 **100% das funções DAX com exemplos**
-* 🧠 **Quando usar cada função (anti‑padrões)**
-* ⚡ **Modelos prontos de medidas de negócio**
-
-Se quiser, digo exatamente **quais funções você deve dominar primeiro** para trabalhar profissionalmente com Power BI.
